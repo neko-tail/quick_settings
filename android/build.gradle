@@ -26,6 +26,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'org.jetbrains.kotlin.android'
 
 android {
+    namespace "io.apparence.quick_settings"
+    
     compileSdkVersion 33
 
     compileOptions {
